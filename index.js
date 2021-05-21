@@ -5,10 +5,10 @@ const bot = new TelegramApi(token, {polling: true})
 const mysql = require("mysql2");
 
 const connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    database: "ai204-bot",
-    password: "root"
+    host: "141.8.192.151",
+    user: "f0512274_AI205bot",
+    database: "f0512274_AI205bot",
+    password: "myprog123"
   })
 
   connection.connect(function(err){
